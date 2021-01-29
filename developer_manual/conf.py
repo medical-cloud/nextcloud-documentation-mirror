@@ -44,7 +44,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Nextcloud %s Developer Manual' % (version)
+project = u'Medical Cloud %s Developer Manual' % (version)
 #copyright = u'2012-2017, The Nextcloud developers'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -68,7 +68,7 @@ project = u'Nextcloud %s Developer Manual' % (version)
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+exclude_patterns = ['_build', 'app_development', 'app_publishing_maintenance', 'basics', 'basics/front-end', 'basics/storage', 'client_apis/android_library', 'client_apis/OCS', 'client_apis/RemoteWipe', 'core', 'design', 'digging_deeper', 'getting_started', 'how_to', 'prologue', 'prologue/bugtracker']
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None
@@ -159,7 +159,7 @@ html_static_path = ['../_shared_assets/static']
 html_show_sphinx = False
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
-#html_show_copyright = True
+# html_show_copyright = True
 
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the
@@ -298,10 +298,10 @@ epub_copyright = u'2012-2017, The Nextcloud developers'
 todo_include_todos = True
 
 # allow to reference other documenation
-intersphinx_mapping = {
-  'admin_manual': ('https://docs.nextcloud.com/server/%s/admin_manual/' % (version), '../admin_manual/_build/html/com/objects.inv'),
-  'user_manual': ('https://docs.nextcloud.com/server/%s/user_manual/en/' % (version), '../user_manual/_build/html/en/objects.inv'),
-}
+#intersphinx_mapping = {
+#  'admin_manual': ('https://docs.nextcloud.com/server/%s/admin_manual/' % (version), '../admin_manual/_build/html/com/objects.inv'),
+#  'user_manual': ('https://docs.nextcloud.com/server/%s/user_manual/en/' % (version), '../user_manual/_build/html/en/objects.inv'),
+#}
 
 current_docs = 'developer_manual'
 
@@ -314,5 +314,5 @@ StandaloneHTMLBuilder.supported_image_types = [
 ]
 
 # Generate the versions list
-html_context['versions'] = generateVersionsDocs(current_docs)
-html_context['theme_vcs_pageview_mode'] += current_docs
+#html_context['versions'] = generateVersionsDocs(current_docs)
+#html_context['theme_vcs_pageview_mode'] += current_docs

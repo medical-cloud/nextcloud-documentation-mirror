@@ -8,18 +8,12 @@ Nextcloud developer documentation
 .. _Translation: https://www.transifex.com/nextcloud/
 .. _Documentation: https://github.com/nextcloud/documentation#nextcloud-documentation
 
+API Nextcloud supportées par Medical Cloud
+
 Table of contents
 -----------------
 
 .. toctree::
     :maxdepth: 2
 
-    prologue/index
-    getting_started/index
-    basics/index
-    app_development/index
-    core/index
-    digging_deeper/index
-    app_publishing_maintenance/index
-    design/index
     client_apis/index

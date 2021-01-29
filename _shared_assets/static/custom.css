@@ -37,7 +37,7 @@
 	display: none;
 }
 .rst-versions .rst-current-version:before {
-	content: 'Nextcloud';
+	content: 'Medical Cloud API Doc';
 	margin-right: auto;
 }
 .rst-versions .rst-current-version {
