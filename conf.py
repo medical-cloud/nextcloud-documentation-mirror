@@ -11,7 +11,7 @@ now = datetime.datetime.now()
 extensions = []
 
 # General information about the project.
-copyright = str(now.year) + ' Nextcloud GmbH'
+copyright = str(now.year) + ' Medical Cloud SAS'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -54,16 +54,15 @@ else:
 
 html_context = {
 	'current_version': version,
-	'READTHEDOCS': True,
+	'READTHEDOCS': False,
 	'extra_css_files': ['_static/custom.css'],
-
 	# force github plugin
-	'display_github': True,
-	'github_user': 'nextcloud',
-	'github_repo': 'documentation',
+	#'display_github': True,
+	#'github_user': 'nextcloud',
+	#'github_repo': 'documentation',
 	# If current version is an int, use the stablexxx branches, otherwise, edit on master
-	'theme_vcs_pageview_mode': 'edit/%s/' % github_branch, # to be completed by each individual conf.py
+	#'theme_vcs_pageview_mode': 'edit/%s/' % github_branch, # to be completed by each individual conf.py
 }
 
-edit_on_github_project = 'nextcloud/documentation'
-edit_on_github_branch = 'master'
+#edit_on_github_project = 'nextcloud/documentation'
+#edit_on_github_branch = 'master'
