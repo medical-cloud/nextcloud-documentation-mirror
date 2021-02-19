@@ -1,7 +1,7 @@
 .. _contents:
 
 =================================
-Nextcloud developer documentation
+Medicalcloud developer documentation
 =================================
 
 .. _Nextcloud App Store: https://apps.nextcloud.com/
